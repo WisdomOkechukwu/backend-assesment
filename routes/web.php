@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/products', [CatalogController::class, 'sortProduct']);
+Route::get('/products/no-migration', [CatalogController::class, 'sortProductWithoutMigration']);
