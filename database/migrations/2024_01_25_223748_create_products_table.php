@@ -18,6 +18,7 @@ return new class extends Migration
             $table->timestamp('created');
             $table->integer('sales_count')->default(0);
             $table->integer('views_count')->default(0);
+            $table->timestamps();
         });
     }
 
